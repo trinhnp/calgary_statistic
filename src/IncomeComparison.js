@@ -4,7 +4,7 @@ import * as d3 from "d3";
 const IncomeCitiesData = [{
     "name": "Calgary",
     "show": true,
-    "color": "red",
+    "color": "green",
     "currentIncome": 102060,
     "height": 102060,
     "history": [
@@ -126,7 +126,7 @@ const IncomeCitiesData = [{
 {
     "name": "Canada",
     "show": true,
-    "color": "green",
+    "color": "red",
     "currentIncome": 84950,
     "height": 85000,
     "history": [
