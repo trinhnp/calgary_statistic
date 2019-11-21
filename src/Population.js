@@ -53,20 +53,11 @@ class Population extends React.Component {
             width = 800 - margin.left - margin.right,
             height = 320 - margin.top - margin.bottom;
         //Set variable
-        const padding = 20;
+        
         const formatComma = d3.format(",")
-        // const xScale = d3.scaleBand()
-        //   .range([0, 730])
-        // .domain(PopulationData.map((s) => s.year))
-        //.padding(0.1);    
-
-        //const ydomain = d3.extent(PopulationData, function (d) { return d.population });
-        //const yScale = d3.scaleLinear()
-        //  .domain(ydomain).nice()
-        //.range(0, height);
 
         //Set svg
-        const svg = d3.select("#my_dataviz")
+        const svg = d3.select("#population_data")
             .append("svg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
@@ -105,7 +96,7 @@ class Population extends React.Component {
             .attr("y", function (d) { return y(d.population); })
             // .attr("width", 35)
             // .attr("height", (d, i) => d.population / 5000)
-            .attr("width", x.bandwidth()/6*5)
+            .attr("width", x.bandwidth() / 4 * 3)
             .attr("height", function (d) { return height - y(d.population); })
             .attr("fill", "green")
             //tooltip
@@ -119,17 +110,10 @@ class Population extends React.Component {
             .style("font-size", "20px")
             //.attr("font-weight",'bold')          
             .text("Historical Total Population");
-
-
-
-
-
-
-
     }
     render() {
         return (
-            <div id="my_dataviz"></div>
+            <div id="population_data"></div>
         )
     }
 };
