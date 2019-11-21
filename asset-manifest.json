@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/calgary_statistics/static/css/main.974f916f.chunk.css",
-    "main.js": "/calgary_statistics/static/js/main.7c93c49d.chunk.js",
-    "main.js.map": "/calgary_statistics/static/js/main.7c93c49d.chunk.js.map",
+    "main.js": "/calgary_statistics/static/js/main.9301ec24.chunk.js",
+    "main.js.map": "/calgary_statistics/static/js/main.9301ec24.chunk.js.map",
     "runtime-main.js": "/calgary_statistics/static/js/runtime-main.6aa941e3.js",
     "runtime-main.js.map": "/calgary_statistics/static/js/runtime-main.6aa941e3.js.map",
-    "static/js/2.888aae17.chunk.js": "/calgary_statistics/static/js/2.888aae17.chunk.js",
-    "static/js/2.888aae17.chunk.js.map": "/calgary_statistics/static/js/2.888aae17.chunk.js.map",
+    "static/js/2.72fb35fb.chunk.js": "/calgary_statistics/static/js/2.72fb35fb.chunk.js",
+    "static/js/2.72fb35fb.chunk.js.map": "/calgary_statistics/static/js/2.72fb35fb.chunk.js.map",
     "index.html": "/calgary_statistics/index.html",
-    "precache-manifest.37468ae11de62b0006bd8421a2a3265f.js": "/calgary_statistics/precache-manifest.37468ae11de62b0006bd8421a2a3265f.js",
+    "precache-manifest.78d71b71046eecb87265bfa51c0e4ef0.js": "/calgary_statistics/precache-manifest.78d71b71046eecb87265bfa51c0e4ef0.js",
     "service-worker.js": "/calgary_statistics/service-worker.js",
     "static/css/main.974f916f.chunk.css.map": "/calgary_statistics/static/css/main.974f916f.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.6aa941e3.js",
-    "static/js/2.888aae17.chunk.js",
+    "static/js/2.72fb35fb.chunk.js",
     "static/css/main.974f916f.chunk.css",
-    "static/js/main.7c93c49d.chunk.js"
+    "static/js/main.9301ec24.chunk.js"
   ]
 }

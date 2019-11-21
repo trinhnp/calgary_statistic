@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "69e42b9ea271597075afdf14350a25d9",
+    "revision": "ef997b99d226a0864f0d3a763fb49190",
     "url": "/calgary_statistics/index.html"
   },
   {
-    "revision": "f66295617121b9b89f73",
+    "revision": "ff7e03ddfd145525b72e",
     "url": "/calgary_statistics/static/css/main.974f916f.chunk.css"
   },
   {
-    "revision": "9527fa305f7bbaca834b",
-    "url": "/calgary_statistics/static/js/2.888aae17.chunk.js"
+    "revision": "cd79f03aa40a9ce181dd",
+    "url": "/calgary_statistics/static/js/2.72fb35fb.chunk.js"
   },
   {
-    "revision": "f66295617121b9b89f73",
-    "url": "/calgary_statistics/static/js/main.7c93c49d.chunk.js"
+    "revision": "ff7e03ddfd145525b72e",
+    "url": "/calgary_statistics/static/js/main.9301ec24.chunk.js"
   },
   {
     "revision": "291aeb3b27c5bed2d207",
