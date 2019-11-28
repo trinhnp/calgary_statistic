@@ -2,7 +2,9 @@ import React from 'react'
 import './App.css';
 import Population from './Population';
 import MedianIncome from './MedianIncome';
-import IncomeComparison from './IncomeComparison'
+import IncomeComparison from './IncomeComparison';
+import UnemploymentVsCrime from './UnemploymentVsCrime';
+import UnemploymentVsIncome from './UnemploymentVsIncome'
 
 class App extends React.Component {
   
@@ -32,6 +34,12 @@ class App extends React.Component {
         </div>  
         <div>
           <IncomeComparison />
+        </div>
+        <div>
+          <UnemploymentVsCrime/>
+        </div>
+        <div>
+          <UnemploymentVsIncome />
         </div>
         
       </div>

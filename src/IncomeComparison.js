@@ -283,11 +283,7 @@ class IncomeComparison extends React.Component {
 
         function drawTooltip() {
             const year = Math.floor(x.invert(d3.mouse(this)[0]));
-
-           // IncomeCitiesData.sort((a, b) => {
-            //    return b.history.find(h => h.year = year).income - a.income.find(h => h.year = year).income;
-            //})
-
+           
             tooltipLine.attr('stroke', 'grey')
                 .attr('x1', x(year))
                 .attr('x2', x(year))
