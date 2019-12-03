@@ -4,7 +4,8 @@ import Population from './Population';
 import MedianIncome from './MedianIncome';
 import IncomeComparison from './IncomeComparison';
 import UnemploymentVsCrime from './UnemploymentVsCrime';
-import UnemploymentVsIncome from './UnemploymentVsIncome'
+import UnemploymentVsIncome from './UnemploymentVsIncome';
+import AgeGroupPopulation from './AgeGroupPopulation';
 
 class App extends React.Component {
   
@@ -23,12 +24,15 @@ class App extends React.Component {
         </div>
         <div className="Text">
           <p> Mouse over the graph for more detail</p>
-          <p style={{fontStyle: 'italic'}}> Data source: Alberta Open Government</p>
+          <p style={{fontStyle: 'italic'}}> Data source: Alberta Open Government, Statistics Canada</p>
           <p> <br /></p>
         </div>
         <div>
           <Population  />
-        </div>   
+        </div>  
+        <div>
+          <AgeGroupPopulation />
+         </div> 
         <div>
           <MedianIncome />
         </div>  
@@ -41,7 +45,7 @@ class App extends React.Component {
         <div>
           <UnemploymentVsIncome />
         </div>
-        
+                
       </div>
     );
   }
