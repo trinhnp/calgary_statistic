@@ -190,12 +190,12 @@ class UnemploymentVsIncome extends React.Component {
             .text("Unemployment rate");
         //Add title
         svg.append("text")
-            .attr("x", 200)
+            .attr("x", 350)
             .attr("y", 15)
             .attr("text-anchor", "middle")
             .style("font-size", "20px")
             //.attr("font-weight",'bold')          
-            .text("Unemployment rate Vs Median Income");
+            .text("Relationship between Unemployment rate and Median Income");
         svg.append("text")
             .attr("x", 200)
             .attr("y", 40)

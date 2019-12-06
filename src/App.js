@@ -6,6 +6,7 @@ import IncomeComparison from './IncomeComparison';
 import UnemploymentVsCrime from './UnemploymentVsCrime';
 import UnemploymentVsIncome from './UnemploymentVsIncome';
 import AgeGroupPopulation from './AgeGroupPopulation';
+import MaleFemale from './MaleFemale'
 
 class App extends React.Component {
   
@@ -32,6 +33,9 @@ class App extends React.Component {
         </div>  
         <div>
           <AgeGroupPopulation />
+         </div> 
+         <div>
+          <MaleFemale />
          </div> 
         <div>
           <MedianIncome />
