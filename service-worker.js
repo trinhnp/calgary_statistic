@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/calgary_statistics/precache-manifest.8f74f2eb5664741dbd3195f129cf4772.js"
+  "/calgary_statistics/precache-manifest.fd381f47f06a2a79107d591dc495dd17.js"
 );
 
 self.addEventListener('message', (event) => {
